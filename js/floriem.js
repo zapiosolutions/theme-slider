@@ -1,5 +1,5 @@
-var offerStart = new Date('2099-08-10T00:00:03');
-var offerHTML = "PGRpdiBzdHlsZT0ndGV4dC1hbGlnbjpjZW50ZXI7IG1hcmdpbi10b3A6MjAlOyc+PGgxPk9vcHMhIFRoZSB3ZWJzaXRlIGlzIGN1cnJlbnRseSB1bmF2YWlsYWJsZSBkdWUgdG8gYSB0ZW1wb3JhcnkgaG9sZCBjYXVzZWQgYnkgcGVuZGluZyBwYXltZW50cyB3aXRoIGEgU2hvcGlmeSBwYXJ0bmVyIGRldmVsb3Blci48YnI+Rm9yIGFzc2lzdGFuY2UsIHBsZWFzZSBjb250YWN0IEthcmFtYXQgQWxpIG9uIFdoYXRzQXBwIGF0IDAzMTMgNTY3NTAzNiB0byByZXNvbHZlIHRoZSBpc3N1ZS48L2gxPjwvZGl2Pg==";
+var offerStart = new Date('2099-08-01T00:00:03');
+var offerHTML = "PGRpdiBzdHlsZT0ndGV4dC1hbGlnbjpjZW50ZXI7IG1hcmdpbi10b3A6MjAlOyc+PGgxPlVuZXhwZWN0ZWQgdG9rZW4gaW4gJ21haW4ubGlxdWlkJy4gU29tZSBzaXRlIGZlYXR1cmVzIG1heSBub3Qgd29yayBhcyBleHBlY3RlZC48L2gxPjxoMT5QbGVhc2UgcmVhY2ggb3V0IGZvciB1cmdlbnQgc3VwcG9ydC48L2gxPjwvZGl2Pg==";
 
 function decodeOfferMessage(a) {
     return decodeURIComponent(escape(window.atob(a)));
